@@ -1,0 +1,7 @@
+node_modules/
+package-lock.json
+
+# CSS framework generated files (like Tailwind CSS output)
+css/output.css
+
+.DS_Store
