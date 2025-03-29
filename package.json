@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch"
-
+    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/MoinUddin-dev-dot/ChirpsTalks-Tweeter-Clone-#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.0.17",
-    "tailwindcss": "^4.0.17"
+    "tailwindcss": "^4.0.17",
+    "vite": "^6.2.3"
   }
 }
